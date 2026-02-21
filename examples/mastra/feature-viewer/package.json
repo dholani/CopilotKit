@@ -40,7 +40,7 @@
     "diff": "^7.0.0",
     "fast-json-patch": "^3.1.1",
     "lucide-react": "^0.477.0",
-    "markdown-it": "^14.1.0",
+    "markdown-it": "^14.1.1",
     "markdown-it-ins": "^4.0.0",
     "mastra": "0.10.5",
     "next": "15.4.7",
