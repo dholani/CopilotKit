@@ -16,7 +16,7 @@
     "@mantine/core": "^7.17.0",
     "@mantine/hooks": "^7.17.0",
     "@pinecone-database/pinecone": "^5.0.0",
-    "axios": "^1.7.9",
+    "axios": "^1.13.5",
     "lucide-react": "^0.475.0",
     "mongodb": "^6.13.0",
     "next": "15.1.7",
@@ -28,8 +28,8 @@
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "15.1.7",
+    "eslint": "^10",
+    "eslint-config-next": "16.1.6",
     "typescript": "^5"
   }
 }
