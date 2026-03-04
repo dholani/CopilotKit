@@ -237,8 +237,8 @@ packages:
     resolution: {integrity: sha512-MqO+MLfM6kjxcKoy0p1wRzG3b4ZZXtPI+z2IE26UogS2Cm/XHO+7gGRBh6gcJsOiIVoH93UwKvW4HdgiOZCy9Q==}
     engines: {node: '>=18.0.0'}
 
-  '@hono/node-server@1.14.4':
-    resolution: {integrity: sha512-DnxpshhYewr2q9ZN8ez/M5mmc3sucr8CT1sIgIy1bkeUXut9XWDkqHoFHRhWIQgkYnKpVRxunyhK7WzpJeJ6qQ==}
+  '@hono/node-server@1.19.10':
+    resolution: {integrity: sha512-hZ7nOssGqRgyV3FVVQdfi+U4q02uB23bpnYpdvNXkYTRRyWx84b7yf1ans+dnJ/7h41sGL3CeQTfO+ZGxuO+Iw==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: ^4
@@ -904,8 +904,8 @@ packages:
     engines: {node: '>= 10.17.0'}
     hasBin: true
 
-  fast-xml-parser@4.5.3:
-    resolution: {integrity: sha512-RKihhV+SHsIUGXObeVy9AXiBbFwkVk7Syp8XgwN5U3JV416+Gwp/GO9i0JYKmikykgz/UHRrrV4ROuZEo/T0ig==}
+  fast-xml-parser@4.5.4:
+    resolution: {integrity: sha512-jE8ugADnYOBsu1uaoayVl1tVKAMNOXyjwvv2U6udEA2ORBhDooJDWoGxTkhd4Qn4yh59JVVt/pKXtjPwx9OguQ==}
     hasBin: true
 
   fd-slicer@1.1.0:
@@ -996,8 +996,8 @@ packages:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
 
-  hono@4.7.11:
-    resolution: {integrity: sha512-rv0JMwC0KALbbmwJDEnxvQCeJh+xbS3KEWW5PC9cMJ08Ur9xgatI0HmtgYZfOdOSOeYsp5LO2cOhdI8cLEbDEQ==}
+  hono@4.12.5:
+    resolution: {integrity: sha512-3qq+FUBtlTHhtYxbxheZgY8NIFnkkC/MR8u5TTsr7YZ3wixryQ3cCwn3iZbg8p8B88iDBBAYSfZDS75t8MN7Vg==}
     engines: {node: '>=16.9.0'}
 
   html-to-text@9.0.5:
@@ -1396,6 +1396,7 @@ packages:
   tar@7.4.3:
     resolution: {integrity: sha512-5S7Va8hKfV7W5U6g3aYxXmlPoZVAwUMy9AOKyF2fVuZa2UD3qZjg578OrLRt8PcNN1PleVaL/5/yYATNL0ICUw==}
     engines: {node: '>=18'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   text-hex@1.0.0:
     resolution: {integrity: sha512-uuVGNWzgJ4yhRaNSiubPY7OjISw4sw4E5Uv0wbjp+OzcbmVU/rsT8ujgcXJhn9ypzsgr5vlzpPqP+MBBKcGvbg==}
@@ -1743,13 +1744,13 @@ snapshots:
 
   '@google/generative-ai@0.24.1': {}
 
-  '@hono/node-server@1.14.4(hono@4.7.11)':
+  '@hono/node-server@1.19.10(hono@4.12.5)':
     dependencies:
-      hono: 4.7.11
+      hono: 4.12.5
 
-  '@hono/zod-validator@0.2.2(hono@4.7.11)(zod@3.25.58)':
+  '@hono/zod-validator@0.2.2(hono@4.12.5)(zod@3.25.58)':
     dependencies:
-      hono: 4.7.11
+      hono: 4.12.5
       zod: 3.25.58
 
   '@isaacs/fs-minipass@4.0.1':
@@ -1760,7 +1761,7 @@ snapshots:
     dependencies:
       '@anthropic-ai/sdk': 0.39.0
       '@langchain/core': 0.3.57(openai@4.104.0(zod@3.25.58))
-      fast-xml-parser: 4.5.3
+      fast-xml-parser: 4.5.4
       zod: 3.25.58
       zod-to-json-schema: 3.24.5(zod@3.25.58)
     transitivePeerDependencies:
@@ -1827,8 +1828,8 @@ snapshots:
   '@langchain/langgraph-api@0.0.10(@langchain/core@0.3.57(openai@4.104.0(zod@3.25.58)))(@langchain/langgraph-checkpoint@0.0.18(@langchain/core@0.3.57(openai@4.104.0(zod@3.25.58))))(@langchain/langgraph@0.2.44(@langchain/core@0.3.57(openai@4.104.0(zod@3.25.58))))(openai@4.104.0(zod@3.25.58))(typescript@5.8.3)':
     dependencies:
       '@babel/code-frame': 7.27.1
-      '@hono/node-server': 1.14.4(hono@4.7.11)
-      '@hono/zod-validator': 0.2.2(hono@4.7.11)(zod@3.25.58)
+      '@hono/node-server': 1.19.10(hono@4.12.5)
+      '@hono/zod-validator': 0.2.2(hono@4.12.5)(zod@3.25.58)
       '@langchain/core': 0.3.57(openai@4.104.0(zod@3.25.58))
       '@langchain/langgraph': 0.2.44(@langchain/core@0.3.57(openai@4.104.0(zod@3.25.58)))
       '@langchain/langgraph-checkpoint': 0.0.18(@langchain/core@0.3.57(openai@4.104.0(zod@3.25.58)))
@@ -1837,7 +1838,7 @@ snapshots:
       dedent: 1.6.0
       dotenv: 16.5.0
       exit-hook: 4.0.0
-      hono: 4.7.11
+      hono: 4.12.5
       langsmith: 0.2.15(openai@4.104.0(zod@3.25.58))
       open: 10.1.2
       stacktrace-parser: 0.1.11
@@ -2258,7 +2259,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  fast-xml-parser@4.5.3:
+  fast-xml-parser@4.5.4:
     dependencies:
       strnum: 1.1.2
 
@@ -2345,7 +2346,7 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  hono@4.7.11: {}
+  hono@4.12.5: {}
 
   html-to-text@9.0.5:
     dependencies:
