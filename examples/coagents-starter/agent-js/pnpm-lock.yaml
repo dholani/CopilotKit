@@ -555,8 +555,8 @@ packages:
   expr-eval@2.0.2:
     resolution: {integrity: sha512-4EMSHGOPSwAfBiibw3ndnP0AvjDWLsMvGOvWEZ2F96IGk0bIVdjQisOHxReSkE13mHcfbuCiXw+G4y0zv6N8Eg==}
 
-  fast-xml-parser@4.5.0:
-    resolution: {integrity: sha512-/PlTQCI96+fZMAOLMZK4CWG1ItCbfZ/0jx7UIJFChPNrx7tcEgerUgWbeieCM9MfHInUDyK8DWYZ+YrywDJuTg==}
+  fast-xml-parser@4.5.5:
+    resolution: {integrity: sha512-cK9c5I/DwIOI7/Q7AlGN3DuTdwN61gwSfL8rvuVPK+0mcCNHHGxRrpiFtaZZRfRMJL3Gl8B2AFlBG6qXf03w9A==}
     hasBin: true
 
   flat@5.0.2:
@@ -871,8 +871,8 @@ packages:
   whatwg-url@5.0.0:
     resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==}
 
-  yaml@2.8.1:
-    resolution: {integrity: sha512-lcYcMxX2PO9XMGvAJkJ3OsNMw+/7FKes7/hgerGUYWIoWu5j/+YQqcZr5JnPZWzOsEBgMbSbiSTn/dv/69Mkpw==}
+  yaml@2.8.3:
+    resolution: {integrity: sha512-AvbaCLOO2Otw/lW5bmh9d/WEdcDFdQp2Z2ZUH3pX9U2ihyUY0nvLv7J6TrWowklRGPYbB/IuIMfYgxaCPg5Bpg==}
     engines: {node: '>= 14.6'}
     hasBin: true
 
@@ -1039,7 +1039,7 @@ snapshots:
     dependencies:
       '@anthropic-ai/sdk': 0.56.0
       '@langchain/core': 0.3.72(openai@5.12.2(zod@3.25.67))
-      fast-xml-parser: 4.5.0
+      fast-xml-parser: 4.5.5
 
   '@langchain/community@0.0.53(openai@5.12.2(zod@3.25.67))':
     dependencies:
@@ -1305,7 +1305,7 @@ snapshots:
 
   expr-eval@2.0.2: {}
 
-  fast-xml-parser@4.5.0:
+  fast-xml-parser@4.5.5:
     dependencies:
       strnum: 1.0.5
 
@@ -1394,7 +1394,7 @@ snapshots:
       openapi-types: 12.1.3
       p-retry: 4.6.2
       uuid: 10.0.0
-      yaml: 2.8.1
+      yaml: 2.8.3
       zod: 3.25.67
     optionalDependencies:
       '@langchain/anthropic': 0.3.26(@langchain/core@0.3.72(openai@5.12.2(zod@3.25.67)))
@@ -1558,7 +1558,7 @@ snapshots:
       tr46: 0.0.3
       webidl-conversions: 3.0.1
 
-  yaml@2.8.1: {}
+  yaml@2.8.3: {}
 
   zod-to-json-schema@3.24.5(zod@3.25.67):
     dependencies:
