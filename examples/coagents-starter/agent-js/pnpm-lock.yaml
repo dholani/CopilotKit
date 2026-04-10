@@ -555,8 +555,8 @@ packages:
   expr-eval@2.0.2:
     resolution: {integrity: sha512-4EMSHGOPSwAfBiibw3ndnP0AvjDWLsMvGOvWEZ2F96IGk0bIVdjQisOHxReSkE13mHcfbuCiXw+G4y0zv6N8Eg==}
 
-  fast-xml-parser@4.5.0:
-    resolution: {integrity: sha512-/PlTQCI96+fZMAOLMZK4CWG1ItCbfZ/0jx7UIJFChPNrx7tcEgerUgWbeieCM9MfHInUDyK8DWYZ+YrywDJuTg==}
+  fast-xml-parser@4.5.6:
+    resolution: {integrity: sha512-Yd4vkROfJf8AuJrDIVMVmYfULKmIJszVsMv7Vo71aocsKgFxpdlpSHXSaInvyYfgw2PRuObQSW2GFpVMUjxu9A==}
     hasBin: true
 
   flat@5.0.2:
@@ -1039,7 +1039,7 @@ snapshots:
     dependencies:
       '@anthropic-ai/sdk': 0.56.0
       '@langchain/core': 0.3.72(openai@5.12.2(zod@3.25.67))
-      fast-xml-parser: 4.5.0
+      fast-xml-parser: 4.5.6
 
   '@langchain/community@0.0.53(openai@5.12.2(zod@3.25.67))':
     dependencies:
@@ -1305,7 +1305,7 @@ snapshots:
 
   expr-eval@2.0.2: {}
 
-  fast-xml-parser@4.5.0:
+  fast-xml-parser@4.5.6:
     dependencies:
       strnum: 1.0.5
 
